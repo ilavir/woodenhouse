@@ -1,0 +1,58 @@
+$grid-a--width: 190px;
+//ширина грида
+$side--padding: 62px;
+$left-sidebar_inner--width: $grid-a--width + $side--padding;
+//ширина левой колонки
+$left-sidebar_inner--right-padding: $grid-a--width / 2;
+//отступ справа от левой колонки
+$text-color: #333;
+$a--color: #a86031;
+$a-hover--color: #3399ff;
+$blue-darker-than-hover: #2c84d7;
+$pattern: url('../img/body--bg.jpg');
+$pattern2: url('../img/layers--bg-pattern.jpg');
+$layers--border-brown: #e9d7b9;
+$border-radius3: 3px;
+$footer--padding: 100px;
+
+html, body {
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+body {
+  min-width: 960px;
+  color: #333;
+  font-family: Arial, Tahoma, Verdana;
+  font-size: 15px;
+  background-color: #f7eee3;
+  background: $pattern;
+}
+
+a {
+  color: $a--color;
+  &:hover {
+    color: $a-hover--color;
+  }
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+b, strong {
+  font-weight: bold;
+}

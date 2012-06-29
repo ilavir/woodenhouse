@@ -1,0 +1,18 @@
+@media screen and (max-height: 900px) {
+
+  .b-menu-left {
+    li a {
+      font-size: 90%;
+      line-height: 90%;
+    }
+    > li {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      > ul li {
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+    }
+  }
+
+}

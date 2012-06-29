@@ -1,0 +1,299 @@
+.b-lang {
+  margin: 20px 0 45px $side--padding - 20px;
+  li {
+    float: left;
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+    &.active {
+      display: none;
+    }
+    a {
+      display: block;
+      padding: 5px 0 5px 25px;
+    }
+    &.fr a {
+      //@include icons-sprite(b-lang--fr);
+      background: url('../img/icons/b-lang--fr.png') no-repeat left;
+    }
+    &.eng a {
+      background: url('../img/icons/b-lang--eng.png') no-repeat left;
+    }
+  }
+}
+
+.b-logo {
+  margin: 20px 0 45px $side--padding - 10px;
+}
+
+.b-menu-left {
+  width: $grid-a--width + $side--padding;
+  padding-bottom: $footer--padding;
+  li {
+    padding: 10px 0 10px $side--padding;
+    a {
+      font-weight: bold;
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    &.active {
+      border-bottom: solid 1px #f0e1cc;
+      a {
+        &:link, &:visited {
+          color: $blue-darker-than-hover;
+        }
+      }
+    }
+    > ul {
+      position: relative;
+      left: -$side--padding;
+      li {
+        padding: 5px 0 5px $side--padding;
+        a {
+          font-weight: normal;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        &.active {
+          border-bottom: none;
+          background: url('../img/icons/b-menu-left--li-active.png') no-repeat;
+          background-position: $side--padding - 20px center;
+        }
+      }
+    }
+  }
+}
+
+.b-menu-top {
+  li {
+    display: table;
+    float: left;
+    //margin-right: 20px;
+    &:last-child {
+      margin-right: 0 !important;
+    }
+    a {
+      display: table-cell;
+      vertical-align: middle;
+      padding: 10px 0;
+      color: #a86031;
+      font-size: 18px;
+      text-align: center;
+      text-decoration: none;
+      @include border-radius($border-radius3);
+      &:hover {
+        color: #398edd;
+      }
+    }
+    &.active {
+      @include border-radius($border-radius3);
+      background-color: rgba(#58a8f4, 0.7);
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.b-header_inner {
+  margin-right: $grid-a--width + 40px;
+  h1, h2 {
+    color: #a86031;
+    font-weight: normal;
+  }
+  h1 {
+    font-family: HelveticaNeueCyr, Arial;
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+}
+
+.b-contacts {
+  width: $grid-a--width;
+  color: #a86031;
+  font-size: 15px;
+  .e-city {
+    margin-right: 140px;
+    font-weight: bold;
+  }
+  .e-tels {
+    float: right;
+  }
+  a {
+    color: #2c84d7;
+  }
+  .e-desc {
+    margin-top: 10px;
+  }
+}
+
+/* главная страница домов, главная раздела */
+.b-item-house {
+  float: left;
+  width: 28%;
+  margin-right: 8%;
+  border-top: dotted 2px #d6b49d;
+  a {
+    text-decoration: none;
+  }
+  .e-pic-painted {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    text-align: center;
+  }
+  .e-title_main {
+    h1 {
+      font-size: 18px;
+      text-decoration: underline;
+    }
+    h2 {
+      margin-top: 10px;
+      color: #333;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+  &.last {
+    margin-right: 0;
+  }
+  .e-figure {
+    figcaption {
+      margin-top: 20px;
+    }
+  }
+  .e-title_inner {
+    @extend .e-title_main;
+    margin-top: 20px;
+    h2 {
+      color: $blue-darker-than-hover;
+    }
+  }
+  .e-figure_inner {
+    text-align: center;
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 15px;
+      padding: 7px;
+      border: solid 1px #c89b80;
+      background-color: #fff;
+    }
+    figcaption {
+      margin: 15px 0 40px;
+      color: $text-color;
+      text-align: left;
+    }
+  }
+}
+
+.b-item-house-slider_small {
+  position: relative;
+  height: 131px;
+  margin-top: 20px;
+  a {
+    display: block;
+    position: absolute;
+    top: 0;
+    padding: 7px;
+    border: solid 1px #c89b80;
+    background-color: #fff;
+    &:nth-child(1) {
+      left: 0;
+      z-index: 50;
+    }
+    &:nth-child(2) {
+      left: 15px;
+      z-index: 40;
+    }
+    &:nth-child(3) {
+      left: 30px;
+      z-index: 30;
+    }
+    &:nth-child(4) {
+      left: 45px;
+      z-index: 20;
+    }
+    &:nth-child(5) {
+      left: 60px;
+      z-index: 10;
+    }
+    &:hover {
+      z-index: 60 !important;
+    }
+    img {
+      width: 150px;
+      height: 113px;
+    }
+  }
+}
+
+.b-item-house-slider_big {
+  @extend .b-item-house-slider_small;
+  a {
+    &:nth-child(1) {
+      left: 0;
+    }
+    &:nth-child(2) {
+      left: 120px;
+    }
+    &:nth-child(3) {
+      left: 240px;
+    }
+    &:nth-child(4) {
+      left: 360px;
+    }
+    &:nth-child(5) {
+      left: 480px;
+    }
+  }
+}
+
+.b-project-history {
+  margin-top: 80px;
+  padding: 30px 90px;
+  border-top: dotted 2px #d6b49d;
+  border-bottom: dotted 2px #d6b49d;
+  background-color: #fff;
+  h1 {
+    font-size: 18px;
+  }
+  .e-desc {
+    width: 300px;
+    margin-top: 15px;
+  }
+}
+
+/* /главная страница домов, главная раздела */
+
+.b-footer {
+  position: absolute;
+  bottom: 20px;
+  left: $side--padding;
+  right: $side--padding;
+  z-index: 30;
+  background: $pattern2;
+  border-left: solid 1px $layers--border-brown;
+  border-right: solid 1px $layers--border-brown;
+  border-bottom: solid 1px $layers--border-brown;
+  @include border-radius($border-radius3);
+  .e-text {
+    padding: 10px 25px;
+    font-size: 13px;
+  }
+  .e-star {
+    width: 30px;
+    height: 30px;
+    margin: 2px 15px 0 0;
+    background: url('../img/e-star.png') no-repeat left top;
+    text-indent: -9999px;
+  }
+}
