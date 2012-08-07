@@ -59,10 +59,8 @@ function picsSliderSmallIndexChange() {
 
 $(window).bind('resize', function () {
   //if ($('.l-sidebar-left_inner').size()) {leftMenuFontSize();}
-  if ($('.l-menu-top_inner').size()) {
-    fMenuTopInnerWidht();
-    equalHeight($('.b-menu-top li'));
-    equalHeight($('.b-menu-top a'));
+  if ($('.l-menu-top_inner nav').size()) {
+    //$('.l-menu-top_inner').horizontalNav();
   }
   if ($('.b-footer').size()) {
     footerWidth();
@@ -72,9 +70,10 @@ $(window).bind('resize', function () {
 $(function () {
   //if ($('.l-sidebar-left_inner').size()) {leftMenuFontSize();}
   if ($('.l-menu-top_inner').size()) {
-    fMenuTopInnerWidht();
-    equalHeight($('.b-menu-top li'));
-    equalHeight($('.b-menu-top a'));
+    $('.l-menu-top_inner nav').horizontalNav();
+    /* fMenuTopInnerWidht();
+     equalHeight($('.b-menu-top li'));
+     equalHeight($('.b-menu-top a')); */
     //fMenuTopAVertAlign();
   }
   if ($('.b-footer').size()) {

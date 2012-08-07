@@ -70,14 +70,15 @@
 
 .b-menu-top {
   li {
-    display: table;
+    //display: table;
     float: left;
     //margin-right: 20px;
+    vertical-align: middle;
     &:last-child {
       margin-right: 0 !important;
     }
     a {
-      display: table-cell;
+      display: block;
       vertical-align: middle;
       padding: 10px 0;
       color: #a86031;

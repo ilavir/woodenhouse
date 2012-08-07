@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 15, D:/projects/wh/html/sass/partials/_base.scss */
+/* line 15, D:/projects/other/wh/html/sass/partials/_base.scss */
 html, body {
   width: 100%;
   min-height: 100%;
@@ -77,7 +77,7 @@ html, body {
   overflow: auto;
 }
 
-/* line 22, D:/projects/wh/html/sass/partials/_base.scss */
+/* line 22, D:/projects/other/wh/html/sass/partials/_base.scss */
 body {
   min-width: 960px;
   color: #333;
@@ -87,17 +87,17 @@ body {
   background: url("../img/body--bg.jpg");
 }
 
-/* line 31, D:/projects/wh/html/sass/partials/_base.scss */
+/* line 31, D:/projects/other/wh/html/sass/partials/_base.scss */
 a {
   color: #a86031;
 }
 
-/* line 33, D:/projects/wh/html/sass/partials/_base.scss */
+/* line 33, D:/projects/other/wh/html/sass/partials/_base.scss */
 a:hover {
   color: #3399ff;
 }
 
-/* line 38, D:/projects/wh/html/sass/partials/_base.scss */
+/* line 38, D:/projects/other/wh/html/sass/partials/_base.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
@@ -105,23 +105,23 @@ sub, sup {
   vertical-align: baseline;
 }
 
-/* line 39, D:/projects/wh/html/sass/partials/_base.scss */
+/* line 45, D:/projects/other/wh/html/sass/partials/_base.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 40, D:/projects/wh/html/sass/partials/_base.scss */
+/* line 49, D:/projects/other/wh/html/sass/partials/_base.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 41, D:/projects/wh/html/sass/partials/_base.scss */
+/* line 53, D:/projects/other/wh/html/sass/partials/_base.scss */
 b, strong {
   font-weight: bold;
 }
 
 /* For image replacement */
-/* line 2, D:/projects/wh/html/sass/partials/_helpers.scss */
+/* line 2, D:/projects/other/wh/html/sass/partials/_helpers.scss */
 .ir {
   display: block;
   border: 0;
@@ -134,20 +134,20 @@ b, strong {
   *line-height: 0;
 }
 
-/* line 3, D:/projects/wh/html/sass/partials/_helpers.scss */
+/* line 14, D:/projects/other/wh/html/sass/partials/_helpers.scss */
 .ir br {
   display: none;
 }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 6, D:/projects/wh/html/sass/partials/_helpers.scss */
+/* line 19, D:/projects/other/wh/html/sass/partials/_helpers.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 9, D:/projects/wh/html/sass/partials/_helpers.scss */
+/* line 25, D:/projects/other/wh/html/sass/partials/_helpers.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -160,7 +160,7 @@ b, strong {
 }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 12, D:/projects/wh/html/sass/partials/_helpers.scss */
+/* line 37, D:/projects/other/wh/html/sass/partials/_helpers.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
@@ -171,47 +171,47 @@ b, strong {
 }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 15, D:/projects/wh/html/sass/partials/_helpers.scss */
+/* line 47, D:/projects/other/wh/html/sass/partials/_helpers.scss */
 .invisible {
   visibility: hidden;
 }
 
 /* Contain floats: h5bp.com/q */
-/* line 18, D:/projects/wh/html/sass/partials/_helpers.scss */
+/* line 52, D:/projects/other/wh/html/sass/partials/_helpers.scss */
 .clearfix:before, .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 19, D:/projects/wh/html/sass/partials/_helpers.scss */
+/* line 57, D:/projects/other/wh/html/sass/partials/_helpers.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 20, D:/projects/wh/html/sass/partials/_helpers.scss */
+/* line 61, D:/projects/other/wh/html/sass/partials/_helpers.scss */
 .clearfix {
   *zoom: 1;
 }
 
 /* Floating rules */
-/* line 23, D:/projects/wh/html/sass/partials/_helpers.scss */
+/* line 66, D:/projects/other/wh/html/sass/partials/_helpers.scss */
 .pull-left {
   float: left;
 }
 
-/* line 24, D:/projects/wh/html/sass/partials/_helpers.scss */
+/* line 70, D:/projects/other/wh/html/sass/partials/_helpers.scss */
 .pull-right {
   float: right;
 }
 
-/* line 1, D:/projects/wh/html/sass/partials/_layers.scss */
+/* line 1, D:/projects/other/wh/html/sass/partials/_layers.scss */
 .l-container_inner {
   position: relative;
   width: 100%;
   min-height: 843px;
 }
 
-/* line 7, D:/projects/wh/html/sass/partials/_layers.scss */
+/* line 7, D:/projects/other/wh/html/sass/partials/_layers.scss */
 .l-sidebar-left_inner {
   position: fixed;
   left: 0;
@@ -224,12 +224,12 @@ b, strong {
   background: url("../img/l-sidebar-left_inner--bg.png") no-repeat left top;
 }
 
-/* line 18, D:/projects/wh/html/sass/partials/_layers.scss */
+/* line 19, D:/projects/other/wh/html/sass/partials/_layers.scss */
 .l-sidebar-left_inner--cont {
   direction: ltr;
 }
 
-/* line 21, D:/projects/wh/html/sass/partials/_layers.scss */
+/* line 23, D:/projects/other/wh/html/sass/partials/_layers.scss */
 .l-menu-top_inner {
   position: fixed;
   left: 252px;
@@ -247,134 +247,134 @@ b, strong {
   border-radius: 3px;
 }
 
-/* line 34, D:/projects/wh/html/sass/partials/_layers.scss */
+/* line 36, D:/projects/other/wh/html/sass/partials/_layers.scss */
 .l-content_inner {
   margin: 100px 62px 0 347px;
   padding-bottom: 100px;
   overflow: hidden;
 }
 
-/* line 44, D:/projects/wh/html/sass/partials/_layers.scss */
+/* line 46, D:/projects/other/wh/html/sass/partials/_layers.scss */
 .l-houses_main, .l-houses_inner {
   margin-top: 45px;
 }
 
-/* line 1, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 1, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-lang {
   margin: 20px 0 45px 42px;
 }
 
-/* line 3, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 3, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-lang li {
   float: left;
   margin-right: 10px;
 }
 
-/* line 6, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 6, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-lang li:last-child {
   margin-right: 0;
 }
 
-/* line 9, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 9, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-lang li.active {
   display: none;
 }
 
-/* line 12, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 12, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-lang li a {
   display: block;
   padding: 5px 0 5px 25px;
 }
 
-/* line 16, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 16, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-lang li.fr a {
   background: url("../img/icons/b-lang--fr.png") no-repeat left;
 }
 
-/* line 20, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 20, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-lang li.eng a {
   background: url("../img/icons/b-lang--eng.png") no-repeat left;
 }
 
-/* line 26, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 26, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-logo {
   margin: 20px 0 45px 52px;
 }
 
-/* line 30, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 30, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-left {
   width: 252px;
   padding-bottom: 100px;
 }
 
-/* line 33, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 33, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-left li {
   padding: 10px 0 10px 62px;
 }
 
-/* line 35, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 35, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-left li a {
   font-weight: bold;
   text-decoration: none;
 }
 
-/* line 38, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 38, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-left li a:hover {
   text-decoration: none;
 }
 
-/* line 42, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 42, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-left li.active {
   border-bottom: solid 1px #f0e1cc;
 }
 
-/* line 45, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 45, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-left li.active a:link, .b-menu-left li.active a:visited {
   color: #2c84d7;
 }
 
-/* line 50, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 50, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-left li > ul {
   position: relative;
   left: -62px;
 }
 
-/* line 53, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 53, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-left li > ul li {
   padding: 5px 0 5px 62px;
 }
 
-/* line 55, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 55, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-left li > ul li a {
   font-weight: normal;
 }
 
-/* line 57, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 57, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-left li > ul li a:hover {
   text-decoration: underline;
 }
 
-/* line 61, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 61, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-left li > ul li.active {
   border-bottom: none;
   background: url("../img/icons/b-menu-left--li-active.png") no-repeat;
   background-position: 42px center;
 }
 
-/* line 72, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 72, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-top li {
-  display: table;
   float: left;
+  vertical-align: middle;
 }
 
-/* line 76, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 77, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-top li:last-child {
   margin-right: 0 !important;
 }
 
-/* line 79, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 80, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-top li a {
-  display: table-cell;
+  display: block;
   vertical-align: middle;
   padding: 10px 0;
   color: #a86031;
@@ -388,12 +388,12 @@ b, strong {
   border-radius: 3px;
 }
 
-/* line 88, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 89, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-top li a:hover {
   color: #398edd;
 }
 
-/* line 92, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 93, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-top li.active {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -403,64 +403,64 @@ b, strong {
   background-color: rgba(88, 168, 244, 0.7);
 }
 
-/* line 95, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 96, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-menu-top li.active a {
   color: #fff;
   text-decoration: none;
 }
 
-/* line 103, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 104, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-header_inner {
   margin-right: 230px;
 }
 
-/* line 105, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 106, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-header_inner h1, .b-header_inner h2 {
   color: #a86031;
   font-weight: normal;
 }
 
-/* line 109, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 110, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-header_inner h1 {
   font-family: HelveticaNeueCyr, Arial;
   font-size: 48px;
 }
 
-/* line 113, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 114, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-header_inner h2 {
   font-size: 27px;
 }
 
-/* line 118, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 119, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-contacts {
   width: 190px;
   color: #a86031;
   font-size: 15px;
 }
 
-/* line 122, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 123, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-contacts .e-city {
   margin-right: 140px;
   font-weight: bold;
 }
 
-/* line 126, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 127, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-contacts .e-tels {
   float: right;
 }
 
-/* line 129, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 130, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-contacts a {
   color: #2c84d7;
 }
 
-/* line 132, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 133, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-contacts .e-desc {
   margin-top: 10px;
 }
 
 /* главная страница домов, главная раздела */
-/* line 138, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 139, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house {
   float: left;
   width: 28%;
@@ -468,29 +468,29 @@ b, strong {
   border-top: dotted 2px #d6b49d;
 }
 
-/* line 143, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 144, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house a {
   text-decoration: none;
 }
 
-/* line 146, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 147, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house .e-pic-painted {
   text-align: center;
 }
 
-/* line 147, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 148, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house .e-pic-painted img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 154, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 155, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house .e-title_main h1, .b-item-house .e-title_inner h1 {
   font-size: 18px;
   text-decoration: underline;
 }
 
-/* line 158, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 159, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house .e-title_main h2, .b-item-house .e-title_inner h2 {
   margin-top: 10px;
   color: #333;
@@ -498,32 +498,32 @@ b, strong {
   text-decoration: none;
 }
 
-/* line 165, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 166, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house.last {
   margin-right: 0;
 }
 
-/* line 169, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 170, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house .e-figure figcaption {
   margin-top: 20px;
 }
 
-/* line 173, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 174, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house .e-title_inner {
   margin-top: 20px;
 }
 
-/* line 176, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 177, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house .e-title_inner h2 {
   color: #2c84d7;
 }
 
-/* line 180, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 181, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house .e-figure_inner {
   text-align: center;
 }
 
-/* line 182, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 183, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house .e-figure_inner img {
   max-width: 100%;
   height: auto;
@@ -533,21 +533,21 @@ b, strong {
   background-color: #fff;
 }
 
-/* line 190, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 191, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house .e-figure_inner figcaption {
   margin: 15px 0 40px;
   color: #333333;
   text-align: left;
 }
 
-/* line 198, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 199, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_small, .b-item-house-slider_big {
   position: relative;
   height: 131px;
   margin-top: 20px;
 }
 
-/* line 202, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 203, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_small a, .b-item-house-slider_big a {
   display: block;
   position: absolute;
@@ -557,73 +557,73 @@ b, strong {
   background-color: #fff;
 }
 
-/* line 209, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 210, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_small a:nth-child(1), .b-item-house-slider_big a:nth-child(1) {
   left: 0;
   z-index: 50;
 }
 
-/* line 213, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 214, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_small a:nth-child(2), .b-item-house-slider_big a:nth-child(2) {
   left: 15px;
   z-index: 40;
 }
 
-/* line 217, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 218, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_small a:nth-child(3), .b-item-house-slider_big a:nth-child(3) {
   left: 30px;
   z-index: 30;
 }
 
-/* line 221, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 222, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_small a:nth-child(4), .b-item-house-slider_big a:nth-child(4) {
   left: 45px;
   z-index: 20;
 }
 
-/* line 225, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 226, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_small a:nth-child(5), .b-item-house-slider_big a:nth-child(5) {
   left: 60px;
   z-index: 10;
 }
 
-/* line 229, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 230, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_small a:hover, .b-item-house-slider_big a:hover {
   z-index: 60 !important;
 }
 
-/* line 232, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 233, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_small a img, .b-item-house-slider_big a img {
   width: 150px;
   height: 113px;
 }
 
-/* line 242, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 243, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_big a:nth-child(1) {
   left: 0;
 }
 
-/* line 245, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 246, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_big a:nth-child(2) {
   left: 120px;
 }
 
-/* line 248, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 249, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_big a:nth-child(3) {
   left: 240px;
 }
 
-/* line 251, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 252, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_big a:nth-child(4) {
   left: 360px;
 }
 
-/* line 254, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 255, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-item-house-slider_big a:nth-child(5) {
   left: 480px;
 }
 
-/* line 260, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 261, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-project-history {
   margin-top: 80px;
   padding: 30px 90px;
@@ -632,19 +632,19 @@ b, strong {
   background-color: #fff;
 }
 
-/* line 266, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 267, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-project-history h1 {
   font-size: 18px;
 }
 
-/* line 269, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 270, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-project-history .e-desc {
   width: 300px;
   margin-top: 15px;
 }
 
 /* /главная страница домов, главная раздела */
-/* line 276, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 278, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-footer {
   position: absolute;
   bottom: 20px;
@@ -662,13 +662,13 @@ b, strong {
   border-radius: 3px;
 }
 
-/* line 287, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 289, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-footer .e-text {
   padding: 10px 25px;
   font-size: 13px;
 }
 
-/* line 291, D:/projects/wh/html/sass/partials/_blocks.scss */
+/* line 293, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-footer .e-star {
   width: 30px;
   height: 30px;
@@ -678,19 +678,19 @@ b, strong {
 }
 
 @media screen and (max-height: 900px) {
-  /* line 4, D:/projects/wh/html/sass/partials/_media.scss */
+  /* line 4, D:/projects/other/wh/html/sass/partials/_media.scss */
   .b-menu-left li a {
     font-size: 90%;
     line-height: 90%;
   }
 
-  /* line 8, D:/projects/wh/html/sass/partials/_media.scss */
+  /* line 8, D:/projects/other/wh/html/sass/partials/_media.scss */
   .b-menu-left > li {
     padding-top: 7px;
     padding-bottom: 7px;
   }
 
-  /* line 11, D:/projects/wh/html/sass/partials/_media.scss */
+  /* line 11, D:/projects/other/wh/html/sass/partials/_media.scss */
   .b-menu-left > li > ul li {
     padding-top: 3px;
     padding-bottom: 3px;

@@ -1,7 +1,7 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
-/* line 4, D:/projects/wh/html/sass/print.scss */
+/* line 4, D:/projects/other/wh/html/sass/print.scss */
 * {
   background: transparent !important;
   color: black !important;
@@ -12,45 +12,45 @@
 }
 
 /* Black prints faster: h5bp.com/s */
-/* line 5, D:/projects/wh/html/sass/print.scss */
+/* line 14, D:/projects/other/wh/html/sass/print.scss */
 a, a:visited {
   text-decoration: underline;
 }
 
-/* line 6, D:/projects/wh/html/sass/print.scss */
+/* line 18, D:/projects/other/wh/html/sass/print.scss */
 a[href]:after {
   content: " (" attr(href) ")";
 }
 
-/* line 7, D:/projects/wh/html/sass/print.scss */
+/* line 22, D:/projects/other/wh/html/sass/print.scss */
 abbr[title]:after {
   content: " (" attr(title) ")";
 }
 
-/* line 8, D:/projects/wh/html/sass/print.scss */
+/* line 26, D:/projects/other/wh/html/sass/print.scss */
 .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
   content: "";
 }
 
 /* Don't show links for images, or javascript/internal links */
-/* line 9, D:/projects/wh/html/sass/print.scss */
+/* line 31, D:/projects/other/wh/html/sass/print.scss */
 pre, blockquote {
   border: 1px solid #999;
   page-break-inside: avoid;
 }
 
-/* line 10, D:/projects/wh/html/sass/print.scss */
+/* line 36, D:/projects/other/wh/html/sass/print.scss */
 thead {
   display: table-header-group;
 }
 
 /* h5bp.com/t */
-/* line 11, D:/projects/wh/html/sass/print.scss */
+/* line 41, D:/projects/other/wh/html/sass/print.scss */
 tr, img {
   page-break-inside: avoid;
 }
 
-/* line 12, D:/projects/wh/html/sass/print.scss */
+/* line 45, D:/projects/other/wh/html/sass/print.scss */
 img {
   max-width: 100% !important;
 }
@@ -59,13 +59,13 @@ img {
   margin: 0.5cm;
 }
 
-/* line 14, D:/projects/wh/html/sass/print.scss */
+/* line 53, D:/projects/other/wh/html/sass/print.scss */
 p, h2, h3 {
   orphans: 3;
   widows: 3;
 }
 
-/* line 15, D:/projects/wh/html/sass/print.scss */
+/* line 58, D:/projects/other/wh/html/sass/print.scss */
 h2, h3 {
   page-break-after: avoid;
 }
