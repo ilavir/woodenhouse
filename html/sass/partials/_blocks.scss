@@ -276,10 +276,12 @@
 /* /главная страница домов, главная раздела */
 
 .b-footer {
-  position: absolute;
-  bottom: 20px;
-  left: $side--padding;
-  right: $side--padding;
+  position: relative;
+  min-width: 1139px;
+  //bottom: 20px;
+  //left: $side--padding;
+  //right: $side--padding;
+  margin: -$footer--padding/1.5 $side--padding 20px $side--padding;
   z-index: 30;
   background: $pattern2;
   border-left: solid 1px $layers--border-brown;

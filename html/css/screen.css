@@ -69,17 +69,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 15, D:/projects/other/wh/html/sass/partials/_base.scss */
+/* line 18, D:/projects/other/wh/html/sass/partials/_base.scss */
 html, body {
   width: 100%;
-  min-height: 100%;
   height: 100%;
-  overflow: auto;
 }
 
-/* line 22, D:/projects/other/wh/html/sass/partials/_base.scss */
+/* line 23, D:/projects/other/wh/html/sass/partials/_base.scss */
 body {
-  min-width: 960px;
   color: #333;
   font-family: Arial, Tahoma, Verdana;
   font-size: 15px;
@@ -87,17 +84,17 @@ body {
   background: url("../img/body--bg.jpg");
 }
 
-/* line 31, D:/projects/other/wh/html/sass/partials/_base.scss */
+/* line 33, D:/projects/other/wh/html/sass/partials/_base.scss */
 a {
   color: #a86031;
 }
 
-/* line 33, D:/projects/other/wh/html/sass/partials/_base.scss */
+/* line 35, D:/projects/other/wh/html/sass/partials/_base.scss */
 a:hover {
   color: #3399ff;
 }
 
-/* line 38, D:/projects/other/wh/html/sass/partials/_base.scss */
+/* line 40, D:/projects/other/wh/html/sass/partials/_base.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
@@ -105,17 +102,17 @@ sub, sup {
   vertical-align: baseline;
 }
 
-/* line 45, D:/projects/other/wh/html/sass/partials/_base.scss */
+/* line 47, D:/projects/other/wh/html/sass/partials/_base.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 49, D:/projects/other/wh/html/sass/partials/_base.scss */
+/* line 51, D:/projects/other/wh/html/sass/partials/_base.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 53, D:/projects/other/wh/html/sass/partials/_base.scss */
+/* line 55, D:/projects/other/wh/html/sass/partials/_base.scss */
 b, strong {
   font-weight: bold;
 }
@@ -206,9 +203,8 @@ b, strong {
 
 /* line 1, D:/projects/other/wh/html/sass/partials/_layers.scss */
 .l-container_inner {
-  position: relative;
   width: 100%;
-  min-height: 843px;
+  min-height: 100%;
 }
 
 /* line 7, D:/projects/other/wh/html/sass/partials/_layers.scss */
@@ -219,23 +215,17 @@ b, strong {
   z-index: 10;
   width: 347px;
   height: 1280px;
-  overflow: hidden;
-  direction: rtl;
   background: url("../img/l-sidebar-left_inner--bg.png") no-repeat left top;
 }
 
-/* line 19, D:/projects/other/wh/html/sass/partials/_layers.scss */
-.l-sidebar-left_inner--cont {
-  direction: ltr;
-}
-
-/* line 23, D:/projects/other/wh/html/sass/partials/_layers.scss */
+/* line 17, D:/projects/other/wh/html/sass/partials/_layers.scss */
 .l-menu-top_inner {
   position: fixed;
+  min-width: 949px;
   left: 252px;
   right: 62px;
   top: 20px;
-  z-index: 20;
+  z-index: 200;
   background: url("../img/layers--bg-pattern.jpg");
   border-left: solid 1px #e9d7b9;
   border-right: solid 1px #e9d7b9;
@@ -247,14 +237,15 @@ b, strong {
   border-radius: 3px;
 }
 
-/* line 36, D:/projects/other/wh/html/sass/partials/_layers.scss */
+/* line 31, D:/projects/other/wh/html/sass/partials/_layers.scss */
 .l-content_inner {
-  margin: 100px 62px 0 347px;
-  padding-bottom: 100px;
-  overflow: hidden;
+
+  min-width: 854px;
+  margin: 0 62px 0 347px;
+  padding: 100px 0 100px 0;
 }
 
-/* line 46, D:/projects/other/wh/html/sass/partials/_layers.scss */
+/* line 42, D:/projects/other/wh/html/sass/partials/_layers.scss */
 .l-houses_main, .l-houses_inner {
   margin-top: 45px;
 }
@@ -646,10 +637,9 @@ b, strong {
 /* /главная страница домов, главная раздела */
 /* line 278, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-footer {
-  position: absolute;
-  bottom: 20px;
-  left: 62px;
-  right: 62px;
+  position: relative;
+  min-width: 1139px;
+  margin: -66.667px 62px 20px 62px;
   z-index: 30;
   background: url("../img/layers--bg-pattern.jpg");
   border-left: solid 1px #e9d7b9;
@@ -662,13 +652,13 @@ b, strong {
   border-radius: 3px;
 }
 
-/* line 289, D:/projects/other/wh/html/sass/partials/_blocks.scss */
+/* line 291, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-footer .e-text {
   padding: 10px 25px;
   font-size: 13px;
 }
 
-/* line 293, D:/projects/other/wh/html/sass/partials/_blocks.scss */
+/* line 295, D:/projects/other/wh/html/sass/partials/_blocks.scss */
 .b-footer .e-star {
   width: 30px;
   height: 30px;

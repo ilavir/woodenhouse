@@ -40,7 +40,7 @@ function fMenuTopInnerWidht() {
  } */
 
 function footerWidth() {
-  var footerWidht = $('body').width() - 144;
+  var footerWidht = $('body').width() - 124;
   $('.b-footer').width(footerWidht);
 }
 
@@ -63,7 +63,7 @@ $(window).bind('resize', function () {
     //$('.l-menu-top_inner').horizontalNav();
   }
   if ($('.b-footer').size()) {
-    footerWidth();
+    //footerWidth();
   }
 });
 
@@ -77,7 +77,7 @@ $(function () {
     //fMenuTopAVertAlign();
   }
   if ($('.b-footer').size()) {
-    footerWidth();
+    //footerWidth();
   }
   //if ($('.l-sidebar-left_inner--cont').size()) {$('.l-sidebar-left_inner--cont').jScrollPane({scrollbarOnLeft:true});}
   Cufon.replace('.b-header_inner h1'); // Works without a selector engine

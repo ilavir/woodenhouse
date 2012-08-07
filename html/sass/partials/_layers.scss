@@ -1,7 +1,7 @@
 .l-container_inner {
-  position: relative;
+  //position: relative;
   width: 100%;
-  min-height: 843px;
+  min-height: 100%;
 }
 
 .l-sidebar-left_inner {
@@ -11,21 +11,16 @@
   z-index: 10;
   width: $left-sidebar_inner--width + $left-sidebar_inner--right-padding;
   height: 1280px;
-  overflow: hidden;
-  direction: rtl;
   background: url('../img/l-sidebar-left_inner--bg.png') no-repeat left top;
-}
-
-.l-sidebar-left_inner--cont {
-  direction: ltr;
 }
 
 .l-menu-top_inner {
   position: fixed;
+  min-width: 949px;
   left: $left-sidebar_inner--width;
   right: $side--padding;
   top: 20px;
-  z-index: 20;
+  z-index: 200;
   background: $pattern2;
   border-left: solid 1px $layers--border-brown;
   border-right: solid 1px $layers--border-brown;
@@ -34,9 +29,11 @@
 }
 
 .l-content_inner {
-  margin: 100px $side--padding 0 $left-sidebar_inner--width + $left-sidebar_inner--right-padding;
-  padding-bottom: $footer--padding;
-  overflow: hidden;
+  width: 100%;
+  min-width: 854px;
+  margin: 0 $side--padding 0 $left-sidebar_inner--width + $left-sidebar_inner--right-padding;
+  padding: 100px 0 $footer--padding 0;
+  //overflow: hidden;
 }
 
 .l-content-header_inner {
