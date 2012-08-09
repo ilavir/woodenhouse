@@ -38,6 +38,7 @@ intermediate
 publish
 .idea
 psd
+nivo-slider
 
 # build script local files
 build/buildinfo.properties

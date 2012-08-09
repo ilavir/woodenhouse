@@ -22,14 +22,14 @@
   top: 20px;
   z-index: 200;
   background: $pattern2;
-  border-left: solid 1px $layers--border-brown;
-  border-right: solid 1px $layers--border-brown;
-  border-bottom: solid 1px $layers--border-brown;
+  border-left: $layers--border-brown;
+  border-right: $layers--border-brown;
+  border-bottom: $layers--border-brown;
   @include border-radius($border-radius3);
 }
 
 .l-content_inner {
-  width: 100%;
+  //width: 100%;
   min-width: 854px;
   margin: 0 $side--padding 0 $left-sidebar_inner--width + $left-sidebar_inner--right-padding;
   padding: 100px 0 $footer--padding 0;
@@ -46,4 +46,8 @@
 
 .l-houses_inner {
   @extend .l-houses_main
+}
+
+.l-slider-photos {
+  margin-top: 30px;
 }

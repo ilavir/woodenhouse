@@ -5,15 +5,20 @@ $left-sidebar_inner--width: $grid-a--width + $side--padding;
 //ширина левой колонки
 $left-sidebar_inner--right-padding: $grid-a--width / 2;
 //отступ справа от левой колонки
-$text-color: #333;
-$a--color: #a86031;
-$a-hover--color: #3399ff;
-$blue-darker-than-hover: #2c84d7;
 $pattern: url('../img/body--bg.jpg');
 $pattern2: url('../img/layers--bg-pattern.jpg');
-$layers--border-brown: #e9d7b9;
 $border-radius3: 3px;
 $footer--padding: 100px;
+$HelveticaNeueCyr: HelveticaNeueCyr;
+/* colors */
+$text-color: #333;
+$blue-lighter: #3399ff;
+$blue-darker: #2c84d7;
+$brown-darker: #a86031;
+$brown-lighter: #b6744e;
+/* borders */
+$layers--border-brown: solid 1px #e9d7b9;
+$border-dotted-brown: dotted 2px #d6b49d;
 
 html, body {
   width: 100%;
@@ -21,19 +26,21 @@ html, body {
 }
 
 body {
-  //position: relative;
-  //min-width: 960px;
+  overflow-y: scroll;
   color: #333;
   font-family: Arial, Tahoma, Verdana;
   font-size: 15px;
+}
+
+body.bg-pattern {
   background-color: #f7eee3;
-  background: $pattern;
+  background-image: $pattern;
 }
 
 a {
-  color: $a--color;
+  color: $brown-darker;
   &:hover {
-    color: $a-hover--color;
+    color: $blue-lighter;
   }
 }
 
@@ -54,4 +61,11 @@ sub {
 
 b, strong {
   font-weight: bold;
+}
+
+p {
+  margin-top: 10px;
+  &:first-child {
+    margin-top: 0;
+  }
 }

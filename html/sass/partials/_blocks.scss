@@ -42,8 +42,9 @@
     &.active {
       border-bottom: solid 1px #f0e1cc;
       a {
-        &:link, &:visited {
-          color: $blue-darker-than-hover;
+        color: $blue-darker;
+        &:hover {
+          color: $blue-lighter;
         }
       }
     }
@@ -81,13 +82,14 @@
       display: block;
       vertical-align: middle;
       padding: 10px 0;
-      color: #a86031;
+      color: $brown-darker;
       font-size: 18px;
       text-align: center;
-      text-decoration: none;
+      text-decoration: underline;
       @include border-radius($border-radius3);
       &:hover {
         color: #398edd;
+        text-decoration: none;
       }
     }
     &.active {
@@ -104,21 +106,22 @@
 .b-header_inner {
   margin-right: $grid-a--width + 40px;
   h1, h2 {
-    color: #a86031;
     font-weight: normal;
   }
   h1 {
-    font-family: HelveticaNeueCyr, Arial;
+    font-family: $HelveticaNeueCyr;
+    color: $brown-darker;
     font-size: 48px;
   }
   h2 {
+    color: $brown-lighter;
     font-size: 27px;
   }
 }
 
 .b-contacts {
   width: $grid-a--width;
-  color: #a86031;
+  color: $brown-darker;
   font-size: 15px;
   .e-city {
     margin-right: 140px;
@@ -128,7 +131,10 @@
     float: right;
   }
   a {
-    color: #2c84d7;
+    color: $blue-darker;
+    &:hover {
+      color: $blue-lighter;
+    }
   }
   .e-desc {
     margin-top: 10px;
@@ -140,7 +146,7 @@
   float: left;
   width: 28%;
   margin-right: 8%;
-  border-top: dotted 2px #d6b49d;
+  border-top: $border-dotted-brown;
   a {
     text-decoration: none;
   }
@@ -175,7 +181,7 @@
     @extend .e-title_main;
     margin-top: 20px;
     h2 {
-      color: $blue-darker-than-hover;
+      color: $blue-darker;
     }
   }
   .e-figure_inner {
@@ -261,8 +267,8 @@
 .b-project-history {
   margin-top: 80px;
   padding: 30px 90px;
-  border-top: dotted 2px #d6b49d;
-  border-bottom: dotted 2px #d6b49d;
+  border-top: $border-dotted-brown;
+  border-bottom: $border-dotted-brown;
   background-color: #fff;
   h1 {
     font-size: 18px;
@@ -275,6 +281,65 @@
 
 /* /главная страница домов, главная раздела */
 
+/* внутренняя дома */
+.b-house-details-title {
+  padding-bottom: 5px;
+  color: $brown-lighter;
+  font-family: $HelveticaNeueCyr, Arial;
+  font-size: 48px;
+  .e-note {
+    display: inline-block;
+    width: 120px;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: italic;
+  }
+}
+
+.b-house-details-plan {
+  padding: 20px 0;
+  border-top: $border-dotted-brown;
+  .e-title {
+    float: left;
+    height: 35px;
+    padding-left: 50px;
+    color: $brown-lighter;
+    font-size: 27px;
+    text-decoration: none;
+    line-height: 35px;
+    background: url('../img/icons/b-house-details-plan--title.png') no-repeat left;
+  }
+  .e-print {
+    float: right;
+    a {
+      display: block;
+      height: 25px;
+      padding-right: 35px;
+      color: $blue-darker;
+      font-size: 12px;
+      font-style: italic;
+      line-height: 25px;
+      background: url('../img/icons/b-house-details-plan--print.png') no-repeat;
+      background-position: 100% 0;
+      &:hover {
+        color: $blue-lighter;
+        background-position: 100% -35px;
+      }
+    }
+  }
+  .e-desc {
+    float: left;
+    width: 22%;
+  }
+  .e-pic {
+    margin-left: 22%;
+    text-align: center;
+  }
+}
+
+/* /внутренняя дома */
+
+/* подвал */
 .b-footer {
   position: relative;
   min-width: 1139px;
@@ -284,9 +349,9 @@
   margin: -$footer--padding/1.5 $side--padding 20px $side--padding;
   z-index: 30;
   background: $pattern2;
-  border-left: solid 1px $layers--border-brown;
-  border-right: solid 1px $layers--border-brown;
-  border-bottom: solid 1px $layers--border-brown;
+  border-left: $layers--border-brown;
+  border-right: $layers--border-brown;
+  border-bottom: $layers--border-brown;
   @include border-radius($border-radius3);
   .e-text {
     padding: 10px 25px;
